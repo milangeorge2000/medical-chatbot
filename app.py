@@ -1,6 +1,7 @@
 from flask import Flask,render_template,request,jsonify
 import pickle
 import numpy as np
+from flask_cors import CORS
 
 
 
@@ -8,7 +9,7 @@ model = pickle.load(open('rfo.pkl','rb'))
 
 app = Flask(__name__)
 
-
+CORS(app)
 des = pickle.load(open('desc.pkl', 'rb'))
 
 

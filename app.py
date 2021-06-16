@@ -15,7 +15,7 @@ des = pickle.load(open('desc.pkl', 'rb'))
 
 @app.route('/')
 def home():
-    return "hello"
+    return "Running"
 
 
 

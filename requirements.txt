@@ -7,3 +7,4 @@ beautifulsoup4==4.8.2
 itsdangerous==1.1.0
 MarkupSafe==1.1.1
 Werkzeug==0.16.0
+numpy==1.17.4
